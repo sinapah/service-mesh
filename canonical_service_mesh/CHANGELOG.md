@@ -1,5 +1,29 @@
 # Changelog
 
+## [0.0.2](https://github.com/sinapah/service-mesh/compare/canonical-service-mesh-v0.4.0...canonical-service-mesh-v0.0.2) (2026-11-06)
+
+
+### chore[canonical-service-mesh]
+
+* adds missing request headers ([#66](https://github.com/sinapah/service-mesh/issues/66)) ([e2095df](https://github.com/sinapah/service-mesh/commit/e2095df07747323f6d13f43139a0f270503b0719))
+
+
+### Features
+
+* add tailscale charms (k8s) ([#514](https://github.com/sinapah/service-mesh/issues/514)) ([34543e0](https://github.com/sinapah/service-mesh/commit/34543e018944ef1f48312458050503b56d674e32))
+* bump istio version to 1.31 ([#841](https://github.com/sinapah/service-mesh/issues/841)) ([7ee9a3d](https://github.com/sinapah/service-mesh/commit/7ee9a3d468dbc85ae6e1492de1ba2b83015e8870))
+* **canonica-service-mesh:** adds a unified canonical service mesh library ([#49](https://github.com/sinapah/service-mesh/issues/49)) ([7114e0b](https://github.com/sinapah/service-mesh/commit/7114e0b11b2f10dfed5600f044dac269c4f77b24))
+* **canonical-service-mesh:** adds utilities for envoy proxy charm ([#103](https://github.com/sinapah/service-mesh/issues/103)) ([073b22a](https://github.com/sinapah/service-mesh/commit/073b22a0631c73e9f65177c6fa0cb029294ce68d))
+* **canonical-service-mesh:** update istio-ingress-config to handle grpc based auth services ([#555](https://github.com/sinapah/service-mesh/issues/555)) ([649cf21](https://github.com/sinapah/service-mesh/commit/649cf21b8f9f7c8cd3ddb9eda2f39f66c1ae98dd))
+
+
+### Bug Fixes
+
+* block listeners when an invalid hostname is requested ([#583](https://github.com/sinapah/service-mesh/issues/583)) ([6ef62f2](https://github.com/sinapah/service-mesh/commit/6ef62f20dbe920d51b5172f69c448bb911b35a72))
+* **canonical-service-mesh:** skip resource types not in the cluster ([#871](https://github.com/sinapah/service-mesh/issues/871)) ([1d8d67e](https://github.com/sinapah/service-mesh/commit/1d8d67e13daef4f8ad18534e3e0aa0174918b43c))
+* make service_mesh lib compatible with lightkube&gt;1.0 ([#826](https://github.com/sinapah/service-mesh/issues/826)) ([4e3bd2b](https://github.com/sinapah/service-mesh/commit/4e3bd2b1c8378c09bf58fc00fcdf356138d729b4))
+* shorten long label names ([#71](https://github.com/sinapah/service-mesh/issues/71)) ([7b88958](https://github.com/sinapah/service-mesh/commit/7b88958982ac71d59b72e114f814c9369528d86f))
+
 ## [0.4.0](https://github.com/canonical/service-mesh/compare/canonical-service-mesh-v0.3.1...canonical-service-mesh-v0.4.0) (2026-10-30)
 
 
